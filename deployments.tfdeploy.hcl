@@ -27,7 +27,7 @@ deployment "openshift_rosa_dev" {
     replicas           = 1
     htpasswd_idp_name   = "dev-htpasswd"
     htpasswd_username   = "cluster-admin" 
-    tfc_organization_name = "hashi-demos-apj"
+    tfc_organization_name = "butterflyswim"
 
   }
 }
