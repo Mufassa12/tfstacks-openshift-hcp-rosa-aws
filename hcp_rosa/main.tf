@@ -2,7 +2,7 @@
 
 module "hcp" {
   # Use the hashi-demo-lab repository
-  source = "git::https://github.com/hashi-demo-lab/terraform-rhcs-rosa-hcp.git?ref=main"
+  source = "git::https://github.com/hashi-demo-lab/terraform-rhcs-rosa-hcp.git"
   
   # Commented out alternatives
   # source = "terraform-redhat/rosa-hcp/rhcs"
