@@ -3,7 +3,7 @@ identity_token "aws" {
 }
 
 store "varset" "openshift_rosa" {
-  id       = "varset-apTRx2kP23J4itN"
+  id       = "varset-apTRx2kP23J4itNy"
   category = "terraform"
 }
 
