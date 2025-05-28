@@ -15,7 +15,7 @@ deployment "openshift_rosa_dev" {
     region             = "ap-southeast-1"
     rhcs_token        = store.varset.openshift_rosa.rhcs_token
     cluster_admin_password = store.varset.openshift_rosa.clusterpass
-    aws_billing_account_id = "855831148133"
+    aws_billing_account_id = "804453558652"
     cidr_block          = "10.200.0.0/16"
     public_subnets      = ["subnet-0c0eca1ee285e4177","subnet-0874f2ae2f9c50df2","subnet-0e88e26f5d4ef35ed"]
     private_subnets = ["subnet-02212f2302fabd834","subnet-08b9377572491efc9","subnet-0ebd436da0b50aa7b"]
