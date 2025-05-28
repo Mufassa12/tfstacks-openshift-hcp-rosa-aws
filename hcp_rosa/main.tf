@@ -1,7 +1,10 @@
 
 
 module "hcp" {
-  source = "git::https://github.com/Mufassa12/tfstacks-openshift-hcp-rosa-aws.git//hcp_rosa?ref=main"
+  # Use the hashi-demo-lab repository
+  source = "git::https://github.com/hashi-demo-lab/terraform-rhcs-rosa-hcp.git?ref=main"
+  
+  # Commented out alternatives
   # source = "terraform-redhat/rosa-hcp/rhcs"
   # version = "1.6.6-prerelease.2"
 
