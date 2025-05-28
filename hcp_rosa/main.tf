@@ -1,8 +1,10 @@
 
 
 module "hcp" {
-  source = "github.com/Mufassa12/terraform-rhcs-rosa-hcp.git"
+  #source = "git::https://github.com/Mufassa12/terraform-rhcs-rosa-hcp.git"
+  source = "git::ssh://git@github.com/Mufassa12/terraform-rhcs-rosa-hcp.git"
   #source  = "terraform-redhat/rosa-hcp/rhcs"
+  version = "1.6.6-prerelease.2"
   #version = "1.6.6-prerelease.2"
 
   cluster_name           = var.cluster_name
