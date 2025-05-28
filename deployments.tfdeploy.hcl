@@ -11,7 +11,7 @@ store "varset" "openshift_rosa" {
 deployment "openshift_rosa_dev" {
   inputs = {
     aws_identity_token = identity_token.aws.jwt
-    role_arn            = "arn:aws:iam::855831148133:role/tfstacks-role"
+    role_arn            = "arn:aws:iam::804453558652:role/tfstacks-role"
     region             = "ap-southeast-1"
     rhcs_token        = store.varset.openshift_rosa.rhcs_token
     cluster_admin_password = store.varset.openshift_rosa.clusterpass
