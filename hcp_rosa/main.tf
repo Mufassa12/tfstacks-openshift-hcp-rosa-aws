@@ -1,9 +1,9 @@
 
 
 module "hcp" {
-  source = "git::https://github.com/Mufassa12/terraform-rhcs-rosa-hcp.git"
+  source = "git::https://github.com/Mufassa12/tfstacks-openshift-hcp-rosa-aws.git//hcp_rosa?ref=main"
   # source = "terraform-redhat/rosa-hcp/rhcs"
-  # version = "1.6.6-prerelease.2"  # Version constraints only work with registry modules
+  # version = "1.6.6-prerelease.2"
 
   cluster_name           = var.cluster_name
   openshift_version      = var.openshift_version
